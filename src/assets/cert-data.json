@@ -1,0 +1,46 @@
+{
+    "certificates": [
+      {
+        "id": 1,
+        "name": "Platform Developer 1",
+        "nuberofQuestions": 60,
+        "weightage":[
+            {
+                "category" : "Developer Fundamental",
+                "percentage" : 23
+            },
+            {
+                "category" : "Process Automation and Logic",
+                "percentage" : 30
+            },
+            {
+                "category" : "User Interface",
+                "percentage" : 25
+            },
+            {
+                "category" : "Testing, Debugging and Deployment",
+                "percentage" : 22
+            }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Platform Developer 2",
+        "nuberofQuestions": 60,
+        "weightage":[
+            {
+                "category" : "Developer Fundamental",
+                "percentage" : 23
+            },
+            {
+                "category" : "Process Automation and Logic",
+                "percentage" : 30
+            },
+            {
+                "category" : "User Interface",
+                "percentage" : 25
+            }
+        ]
+      }
+    ]
+  }
