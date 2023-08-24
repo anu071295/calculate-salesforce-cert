@@ -28,17 +28,17 @@ export default function App() {
   }
   
   return (
-    <>
+    <div>
       <h1>Salesforce Certficate Results Calculator</h1>
-      <select value={certSelectedValue} onChange={handleSelectChange}>
+      <select className = 'certificateDropDown' value={certSelectedValue} onChange={handleSelectChange}>
         {certificationOptions.map(certificates => (
           <option key={certificates.label} value={certificates.value}>
             {certificates.label}
           </option>
         ))}
       </select>
-      <button className='go' onClick={handleOnClickGo}>Go</button>
+      <button className='searchButton' onClick={handleOnClickGo}>Search</button>
       <SectionResultInput certDetailsofSelected={certDetailsofSelected}/>
-    </>
+    </div>
   )
 }

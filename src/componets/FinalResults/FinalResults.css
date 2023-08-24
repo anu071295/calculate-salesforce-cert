@@ -1,0 +1,24 @@
+/* Main container */
+.resultsContainer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* Table styles */
+  .resultTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  .resultTable th,
+  .resultTable td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .resultTable th:first-child,
+  .resultTable td:first-child {
+    text-align: left;
+  }

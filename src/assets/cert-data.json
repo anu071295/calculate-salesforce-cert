@@ -1,9 +1,346 @@
 {
     "certificates": [
+        {
+            "id": 1,
+            "name": "Salesforce Certified Administrator",
+            "nuberofQuestions": 60,
+            "passingScore": 65,
+            "weightage":[
+                {
+                    "category" : "Configuration and Setup",
+                    "percentage" : 20
+                },
+                {
+                    "category" : "Object Manager and Lightning App Builder",
+                    "percentage" : 20
+                },
+                {
+                    "category" : "Sales and Marketing Applications",
+                    "percentage" : 12
+                },
+                {
+                    "category" : "Service and Support Applications",
+                    "percentage" : 11
+                },
+                {
+                    "category" : "Productivity and Collaboration",
+                    "percentage" : 7
+                },
+                {
+                    "category" : "Data and Analytics Management",
+                    "percentage" : 14
+                },
+                {
+                    "category" : "Workflow/Process Automation",
+                    "percentage" : 16
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Salesforce Certified Advanced Administrator",
+            "nuberofQuestions": 60,
+            "passingScore": 65,
+            "weightage": [
+                {
+                  "category": "Security and Access",
+                  "percentage": 20
+                },
+                {
+                  "category": "Objects and Applications",
+                  "percentage": 19
+                },
+                {
+                  "category": "Auditing and Monitoring",
+                  "percentage": 10
+                },
+                {
+                  "category": "Cloud Applications",
+                  "percentage": 11
+                },
+                {
+                  "category": "Data and Analytics Management",
+                  "percentage": 13
+                },
+                {
+                  "category": "Environment Management and Deployment",
+                  "percentage": 7
+                },
+                {
+                  "category": "Process Automation",
+                  "percentage": 20
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Salesforce Certified Platform App Builder",
+            "nuberofQuestions": 60,
+            "passingScore": 63,
+            "weightage": [
+                {
+                  "category": "Salesforce Fundamentals",
+                  "percentage": 23
+                },
+                {
+                  "category": "Data Modeling and Management",
+                  "percentage": 22
+                },
+                {
+                  "category": "Business Logic and Process Automation",
+                  "percentage": 28
+                },
+                {
+                  "category": "User Interface",
+                  "percentage": 17
+                },
+                {
+                  "category": "App Deployment",
+                  "percentage": 10
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Salesforce Certified CPQ Specialist",
+            "nuberofQuestions": 60,
+            "passingScore": 65,
+            "weightage": [
+                {
+                  "category": "CPQ Platform",
+                  "percentage": 23
+                },
+                {
+                  "category": "Bundle Configurations",
+                  "percentage": 17
+                },
+                {
+                  "category": "Pricing",
+                  "percentage": 16
+                },
+                {
+                  "category": "Quote Templates",
+                  "percentage": 7
+                },
+                {
+                  "category": "Product Selection",
+                  "percentage": 7
+                },
+                {
+                  "category": "Orders, Contracts, Amendments, and Renewals",
+                  "percentage": 15
+                },
+                {
+                  "category": "Products",
+                  "percentage": 11
+                },
+                {
+                  "category": "Approvals",
+                  "percentage": 4
+                }
+              ]
+        },
+        {
+            "id": 5,
+            "name": "Salesforce Certified Associate",
+            "nuberofQuestions": 40,
+            "passingScore": 62,
+            "weightage": [
+                {
+                  "category": "Salesforce Ecosystem",
+                  "percentage": 32
+                },
+                {
+                  "category": "Navigation",
+                  "percentage": 28
+                },
+                {
+                  "category": "Data Model",
+                  "percentage": 25
+                },
+                {
+                  "category": "Reports & Dashboards",
+                  "percentage": 15
+                }
+              ]
+        },
+        {
+            "id": 6,
+            "name": "Salesforce Certified Data Architect",
+            "nuberofQuestions": 60,
+            "passingScore": 62,
+            "weightage": [
+                {
+                  "category": "Data modeling/Database Design",
+                  "percentage": 25
+                },
+                {
+                  "category": "Master Data Management",
+                  "percentage": 5
+                },
+                {
+                  "category": "Salesforce Data Management",
+                  "percentage": 25
+                },
+                {
+                  "category": "Data Governance",
+                  "percentage": 10
+                },
+                {
+                  "category": "Large Data Volume considerations",
+                  "percentage": 20
+                },
+                {
+                  "category": "Data Migration",
+                  "percentage": 15
+                }
+              ]
+        },
+        {
+            "id": 7,
+            "name": "Salesforce Certified Sharing and Visibility Architect",
+            "nuberofQuestions": 60,
+            "passingScore": 67,
+            "weightage": [
+                {
+                  "category": "Permissions to Standard Objects, Custom Objects, and Fields",
+                  "percentage": 27
+                },
+                {
+                  "category": "Access to Records",
+                  "percentage": 39
+                },
+                {
+                  "category": "Access to other Data",
+                  "percentage": 16
+                },
+                {
+                  "category": "Implications of Security Model Choice",
+                  "percentage": 18
+                }
+              ]
+        },
+        {
+            "id": 8,
+            "name": "Salesforce Certified Business Analyst",
+            "nuberofQuestions": 60,
+            "passingScore": 72,
+            "weightage": [
+                {
+                  "category": "Customer Discovery",
+                  "percentage": 17
+                },
+                {
+                  "category": "Collaboration with Stakeholders",
+                  "percentage": 23
+                },
+                {
+                  "category": "Business Process Mapping",
+                  "percentage": 12
+                },
+                {
+                  "category": "Requirements",
+                  "percentage": 18
+                },
+                {
+                  "category": "User Stories",
+                  "percentage": 18
+                },
+                {
+                  "category": "Development Support and User Acceptance",
+                  "percentage": 12
+                }
+              ]
+        },
+        {
+            "id": 9,
+            "name": "Salesforce Certified Marketing Cloud Administrator",
+            "nuberofQuestions": 60,
+            "passingScore": 67,
+            "weightage": [
+                {
+                  "category": "Digital Marketing Proficiency",
+                  "percentage": 13
+                },
+                {
+                  "category": "Subscriber Data Management",
+                  "percentage": 18
+                },
+                {
+                  "category": "Setup",
+                  "percentage": 38
+                },
+                {
+                  "category": "Channel Management",
+                  "percentage": 16
+                },
+                {
+                  "category": "Maintenance",
+                  "percentage": 15
+                }
+              ]
+        },
+        {
+            "id": 10,
+            "name": "Salesforce Certified B2B Solution Architect",
+            "nuberofQuestions": 60,
+            "passingScore": 58,
+            "weightage": [
+                {
+                  "category": "Discovery and Customer Success",
+                  "percentage": 25
+                },
+                {
+                  "category": "Data Governance and Integration",
+                  "percentage": 26
+                },
+                {
+                  "category": "Design",
+                  "percentage": 29
+                },
+                {
+                  "category": "Delivery",
+                  "percentage": 12
+                },
+                {
+                  "category": "Operationalize the Solution",
+                  "percentage": 8
+                }
+              ]
+        },
+        {
+            "id": 11,
+            "name": "Salesforce Certified B2C Solution Architect",
+            "nuberofQuestions": 60,
+            "passingScore": 63,
+            "weightage": [
+                {
+                  "category": "Discovery and Customer Success",
+                  "percentage": 27
+                },
+                {
+                  "category": "Functional Capabilities and Business Value",
+                  "percentage": 7
+                },
+                {
+                  "category": "Architecture Design",
+                  "percentage": 18
+                },
+                {
+                  "category": "Data Models and Management",
+                  "percentage": 25
+                },
+                {
+                  "category": "Integration",
+                  "percentage": 23
+                }
+              ]
+        },
       {
-        "id": 1,
-        "name": "Platform Developer 1",
+        "id": 2,
+        "name": "Salesforce Platform Developer I",
         "nuberofQuestions": 60,
+        "passingScore": 68,
         "weightage":[
             {
                 "category" : "Developer Fundamental",

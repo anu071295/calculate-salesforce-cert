@@ -1,12 +1,19 @@
 import propTypes from 'prop-types';
 import './SectionResultInput.css'
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import FinalResults from '../FinalResults/FinalResults';
 
 export default function SectionResultInput({certDetailsofSelected}){
     const [inputValues, setInputValues] = useState({});
     const [secResults, setSecResults] = useState([{}]);
     const [finalResults, setFinalResults] = useState({});
+
+    useEffect(() => {
+        // Reset values when certDetailsofSelected prop changes
+        setInputValues({});
+        setSecResults([{}]);
+        setFinalResults({});
+      }, [certDetailsofSelected]);
 
   const handleFieldInputChange = event => {
     const { name, value } = event.target;
@@ -20,14 +27,9 @@ export default function SectionResultInput({certDetailsofSelected}){
     var totalResults = 0;
     var finalPercentage = 0;
     for(var key in certDetailsofSelected.weightage){
-        //console.log("Weightage",certDetailsofSelected.weightage[key].percentage);
-        //console.log("Your Score",inputValues[certDetailsofSelected.weightage[key].category]);
-        //console.log("Number of questions",certDetailsofSelected.nuberofQuestions);
         const secQuestionConst = Math.round((certDetailsofSelected.weightage[key].percentage * certDetailsofSelected.nuberofQuestions)/100);
         const youGotRighttConst = Math.round(secQuestionConst*(inputValues[certDetailsofSelected.weightage[key].category]/100));
         const categroyValue = certDetailsofSelected.weightage[key].category
-        console.log('Sec Question ',secQuestionConst);
-        console.log('You got Right ', youGotRighttConst);
         setSecResults(prevSecResults => ([
             ...prevSecResults,
             {
@@ -38,10 +40,7 @@ export default function SectionResultInput({certDetailsofSelected}){
         ]));
         totalResults += youGotRighttConst;
     }
-    console.log('Total ', totalResults);
     finalPercentage = totalResults/certDetailsofSelected.nuberofQuestions*100;
-    console.log('Final Percentage ' + finalPercentage);
-    console.log('Find out the datatype of the object variable ', typeof(secResults));
     setFinalResults({
         totalRightAnswers : totalResults,
         overAllPercentage : finalPercentage,
@@ -53,10 +52,11 @@ export default function SectionResultInput({certDetailsofSelected}){
         
             {certDetailsofSelected != undefined?
             <>
+                
+                <form className = "certResultForm" onSubmit={handleOnSubmit}>
                 <h2>{certDetailsofSelected.name}</h2>
-                <form onSubmit={handleOnSubmit}>
-                    <table>
-                        <thead>
+                    <table className='certResultTable'>
+                        <thead className='tableHead'>
                         <tr>
                             <th>Category</th>
                             <th>Weightage</th>
@@ -64,12 +64,12 @@ export default function SectionResultInput({certDetailsofSelected}){
                         </tr>
                         </thead>
                         {certDetailsofSelected.weightage.map(weightage =>(
-                            <tbody key={weightage.category}>
+                            <tbody className='tablebody' key={weightage.category}>
                             <tr >
                                 <td>{weightage.category}</td>
                                 <td>{weightage.percentage}%</td>
                                 <td>
-                                <input
+                                <input className='youScoreInput'
                                         type="number"
                                         name={weightage.category}
                                         value={inputValues[weightage.category] || ''}
@@ -80,14 +80,15 @@ export default function SectionResultInput({certDetailsofSelected}){
                             </tbody>
                         ))}
                     </table>
-                    <button type="submit">Submit</button>
+                    <button className='submitButton' type="submit">Submit</button>
                 </form>
                 <FinalResults 
                 secResults={secResults} 
                 finalResults={finalResults}
                 />
             </>
-            :<></>}
+            :<>
+            </>}
             
         
         </>

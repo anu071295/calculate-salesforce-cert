@@ -1,0 +1,61 @@
+/* SectionResultInput.css */
+
+/* Main container */
+.certResultForm {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+
+  
+  /* Table styles */
+  .certResultTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .tableHead {
+    background-color: #f0f0f0;
+    font-weight: bold;
+  }
+  
+  
+  
+  .certResultTable th,
+  .certResultTable td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .certResultTable th:first-child,
+  .certResultTable td:first-child {
+    text-align: left;
+  }
+  
+  /* Input field styles */
+  .youScoreInput {
+    padding: 5px;
+    width: 90px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Submit button styles */
+  .submitButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: #0056b3;
+  }
