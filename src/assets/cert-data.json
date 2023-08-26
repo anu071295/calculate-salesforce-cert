@@ -336,9 +336,301 @@
                 }
               ]
         },
+        {
+          "id": 12,
+          "name": "Salesforce Certified B2C Commerce Developer",
+          "nuberofQuestions": 60,
+          "passingScore": 65,
+          "weightage": [
+            {
+              "category": "B2C Commerce Setup",
+              "percentage": 11
+            },
+            {
+              "category": "Work With a B2C Site",
+              "percentage": 12
+            },
+            {
+              "category": "Data Management Using Business Manager Usage",
+              "percentage": 24
+            },
+            {
+              "category": "Application Development",
+              "percentage": 53
+            }
+            ]
+      },
       {
-        "id": 2,
-        "name": "Salesforce Platform Developer I",
+        "id": 13,
+        "name": "Salesforce Certified Development Lifecycle and Deployment Architect",
+        "nuberofQuestions": 60,
+        "passingScore": 65,
+        "weightage": [
+            {
+              "category": "Application Lifecycle Management",
+              "percentage": 8
+            },
+            {
+              "category": "Planning",
+              "percentage": 13
+            },
+            {
+              "category": "System Design",
+              "percentage": 15
+            },
+            {
+              "category": "Building",
+              "percentage": 14
+            },
+            {
+              "category": "Deploying",
+              "percentage": 14
+            },
+            {
+              "category": "Testing",
+              "percentage": 13
+            },
+            {
+              "category": "Releasing",
+              "percentage": 13
+            },
+            {
+              "category": "Operating",
+              "percentage": 10
+            }
+          ]
+      },
+      {
+        "id": 14,
+        "name": "Salesforce Certified Heroku Architect",
+        "nuberofQuestions": 60,
+        "passingScore": 72,
+        "weightage": [
+          {
+            "category": "Heroku Platform",
+            "percentage": 10
+          },
+          {
+            "category": "Data",
+            "percentage": 17
+          },
+          {
+            "category": "Security",
+            "percentage": 15
+          },
+          {
+            "category": "Heroku Enterprise",
+            "percentage": 28
+          },
+          {
+            "category": "Architect Applications",
+            "percentage": 15
+          },
+          {
+            "category": "Integrations",
+            "percentage": 15
+          }
+          ]
+      },
+      {
+        "id": 15,
+        "name": "Salesforce Certified Identity and Access Management Architect",
+        "nuberofQuestions": 60,
+        "passingScore": 67,
+        "weightage": [
+          {
+            "category": "Identity Management Concepts",
+            "percentage": 17
+          },
+          {
+            "category": "Accepting Third-Party Identity in Salesforce",
+            "percentage": 21
+          },
+          {
+            "category": "Salesforce as an Identity Provider",
+            "percentage": 17
+          },
+          {
+            "category": "Access Management Best Practices",
+            "percentage": 15
+          },
+          {
+            "category": "Salesforce Identity",
+            "percentage": 12
+          },
+          {
+            "category": "Community (Partner and Customer)",
+            "percentage": 18
+          }
+          ]
+      },
+      {
+        "id": 16,
+        "name": "Salesforce Certified Integration Architect",
+        "nuberofQuestions": 60,
+        "passingScore": 67,
+        "weightage": [
+          {
+            "category": "Evaluate the Current System Landscape",
+            "percentage": 8
+          },
+          {
+            "category": "Evaluate Business Needs",
+            "percentage": 11
+          },
+          {
+            "category": "Translate Needs to Integration Requirements",
+            "percentage": 22
+          },
+          {
+            "category": "Design Integration Solutions",
+            "percentage": 28
+          },
+          {
+            "category": "Build Solution",
+            "percentage": 23
+          },
+          {
+            "category": "Maintain Integration",
+            "percentage": 8
+          }
+          ]
+      },
+      {
+        "id": 17,
+        "name": "Salesforce Certified JavaScript Developer I",
+        "nuberofQuestions": 60,
+        "passingScore": 65,
+        "weightage": [
+          {
+            "category": "Variables, Types, and Collections",
+            "percentage": 23
+          },
+          {
+            "category": "Objects, Functions, and Classes",
+            "percentage": 25
+          },
+          {
+            "category": "Browser and Events",
+            "percentage": 17
+          },
+          {
+            "category": "Debugging and Error Handling",
+            "percentage": 7
+          },
+          {
+            "category": "Asynchronous Programming",
+            "percentage": 13
+          },
+          {
+            "category": "Server Side JavaScript",
+            "percentage": 8
+          },
+          {
+            "category": "Testing",
+            "percentage": 7
+          }
+          ]
+      },
+      {
+        "id": 19,
+        "name": "Salesforce Certified Industries CPQ Developer",
+        "nuberofQuestions": 60,
+        "passingScore": 63,
+        "weightage": [
+          {
+            "category": "Products",
+            "percentage": 20
+          },
+          {
+            "category": "Promotions and Discounts",
+            "percentage": 7
+          },
+          {
+            "category": "Pricing",
+            "percentage": 17
+          },
+          {
+            "category": "Rules",
+            "percentage": 12
+          },
+          {
+            "category": "APIs",
+            "percentage": 12
+          },
+          {
+            "category": "Ordering and Quoting",
+            "percentage": 12
+          },
+          {
+            "category": "Troubleshooting",
+            "percentage": 20
+          }
+          ]
+      },
+      {
+        "id": 20,
+        "name": "Salesforce Certified Marketing Cloud Developer",
+        "nuberofQuestions": 60,
+        "passingScore": 63,
+        "weightage": [
+          {
+            "category": "Data Modeling",
+            "percentage": 14
+          },
+          {
+            "category": "Programmatic Languages",
+            "percentage": 35
+          },
+          {
+            "category": "API",
+            "percentage": 22
+          },
+          {
+            "category": "Data Management",
+            "percentage": 22
+          },
+          {
+            "category": "Security",
+            "percentage": 7
+          }
+          ]
+      },
+      {
+        "id": 21,
+        "name": "Salesforce Certified OmniStudio Developer",
+        "nuberofQuestions": 60,
+        "passingScore": 63,
+        "weightage": [
+          {
+            "category": "FlexCards",
+            "percentage": 15
+          },
+          {
+            "category": "OmniScripts",
+            "percentage": 20
+          },
+          {
+            "category": "Integration Procedures",
+            "percentage": 17
+          },
+          {
+            "category": "Data Raptors",
+            "percentage": 20
+          },
+          {
+            "category": "Expression Sets & Decision Matrices",
+            "percentage": 8
+          },
+          {
+            "category": "Integrated Troubleshooting and Deployment",
+            "percentage": 20
+          }
+          ]
+      },
+      {
+        "id": 23,
+        "name": "Salesforce Certified Platform Developer I",
         "nuberofQuestions": 60,
         "passingScore": 68,
         "weightage":[
@@ -361,22 +653,542 @@
         ]
       },
       {
-        "id": 2,
-        "name": "Platform Developer 2",
+        "id": 24,
+        "name": "Salesforce Certified Platform Developer II",
         "nuberofQuestions": 60,
-        "weightage":[
-            {
-                "category" : "Developer Fundamental",
-                "percentage" : 23
-            },
-            {
-                "category" : "Process Automation and Logic",
-                "percentage" : 30
-            },
-            {
-                "category" : "User Interface",
-                "percentage" : 25
-            }
+        "passingScore": 70,
+        "weightage": [
+          {
+            "category": "Advanced Developer Fundamentals",
+            "percentage": 15
+          },
+          {
+            "category": "Process Automation, Logic, and Integration",
+            "percentage": 27
+          },
+          {
+            "category": "User Interface",
+            "percentage": 20
+          },
+          {
+            "category": "Testing, Debugging, and Deployment",
+            "percentage": 20
+          },
+          {
+            "category": "Performance",
+            "percentage": 18
+          }
+          ]
+      },
+      {
+        "id": 25,
+        "name": "Salesforce Certified Marketing Cloud Account Engagement Specialist",
+        "nuberofQuestions": 60,
+        "passingScore": 72,
+        "weightage": [
+          {
+            "category": "Visitors and Prospects",
+            "percentage": 8
+          },
+          {
+            "category": "Administration",
+            "percentage": 11
+          },
+          {
+            "category": "Account Engagement Forms, Form Handlers and Landing Pages",
+            "percentage": 20
+          },
+          {
+            "category": "Lead Management",
+            "percentage": 24
+          },
+          {
+            "category": "Email Marketing",
+            "percentage": 20
+          },
+          {
+            "category": "Engagement Studio",
+            "percentage": 17
+          }
+          ]
+      },
+      {
+        "id": 26,
+        "name": "Salesforce Certified Marketing Cloud Email Specialist",
+        "nuberofQuestions": 60,
+        "passingScore": 67,
+        "weightage": [
+          {
+            "category": "Email Marketing Best Practices",
+            "percentage": 10
+          },
+          {
+            "category": "Content Creation and Delivery",
+            "percentage": 24
+          },
+          {
+            "category": "Marketing Automation",
+            "percentage": 26
+          },
+          {
+            "category": "Subscriber and Data Management",
+            "percentage": 26
+          },
+          {
+            "category": "Insights and Analytics",
+            "percentage": 14
+          }
+          ]
+      },
+      {
+        "id": 27,
+        "name": "Salesforce Certified Experience Cloud Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 65,
+        "weightage": [
+          {
+            "category": "Email Marketing Best Practices",
+            "percentage": 10
+          },
+          {
+            "category": "Content Creation and Delivery",
+            "percentage": 24
+          },
+          {
+            "category": "Marketing Automation",
+            "percentage": 26
+          },
+          {
+            "category": "Subscriber and Data Management",
+            "percentage": 26
+          },
+          {
+            "category": "Insights and Analytics",
+            "percentage": 14
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "name": "Salesforce Certified Education Cloud Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 67,
+        "weightage": [
+          {
+          "category": "Domain Expertise",
+          "percentage": 18
+        },
+        {
+          "category": "Education Cloud Configuration",
+          "percentage": 22
+        },
+        {
+          "category": "Implementation Strategies and Best Practices",
+          "percentage": 18
+        },
+        {
+          "category": "Solution Design",
+          "percentage": 19
+        },
+        {
+          "category": "Integration and Data Management",
+          "percentage": 16
+        },
+        {
+          "category": "Analytics",
+          "percentage": 7
+        }]
+      },
+      {
+        "id": 29,
+        "name": "Salesforce Certified Tableau CRM & Einstein Discovery Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 68,
+        "weightage": [
+          {
+            "category": "Data Layer",
+            "percentage": 24
+          },
+          {
+            "category": "Security",
+            "percentage": 11
+          },
+          {
+            "category": "Administration",
+            "percentage": 9
+          },
+          {
+            "category": "Tableau CRM Dashboard Design",
+            "percentage": 19
+          },
+          {
+            "category": "Tableau CRM Dashboard Implementation",
+            "percentage": 18
+          },
+          {
+            "category": "Einstein Discovery Story Design",
+            "percentage": 19
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Salesforce Certified Field Service Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 63,
+        "weightage": [
+          {
+            "category": "Managing Resources",
+            "percentage": 16
+          },
+          {
+            "category": "Managing Work Orders",
+            "percentage": 23
+          },
+          {
+            "category": "Managing Scheduling and Optimization",
+            "percentage": 28
+          },
+          {
+            "category": "Configuring Mobility",
+            "percentage": 10
+          },
+          {
+            "category": "Managing Inventory",
+            "percentage": 8
+          },
+          {
+            "category": "Managing Assets",
+            "percentage": 5
+          },
+          {
+            "category": "Configuring Maintenance Plans",
+            "percentage": 5
+          },
+          {
+            "category": "Permissions and Sharing",
+            "percentage": 5
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Salesforce Certified Marketing Cloud Account Engagement Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 63,
+        "weightage": [
+          {
+            "category": "Evaluation",
+            "percentage": 17
+          },
+          {
+            "category": "Account Configuration",
+            "percentage": 20
+          },
+          {
+            "category": "Automating Business Processes",
+            "percentage": 17
+          },
+          {
+            "category": "Email Marketing",
+            "percentage": 10
+          },
+          {
+            "category": "Lead Management",
+            "percentage": 14
+          },
+          {
+            "category": "Personalizing the Prospect Experience",
+            "percentage": 8
+          },
+          {
+            "category": "Reporting, Metrics & Analytics",
+            "percentage": 11
+          },
+          {
+            "category": "Sales Emails and Alerts",
+            "percentage": 3
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Salesforce Certified Marketing Cloud Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 67,
+        "weightage": [
+          {
+            "category": "Discovery and Architecture",
+            "percentage": 16
+          },
+          {
+            "category": "Integration",
+            "percentage": 20
+          },
+          {
+            "category": "Account Configuration",
+            "percentage": 12
+          },
+          {
+            "category": "Automation",
+            "percentage": 20
+          },
+          {
+            "category": "Data Modeling and Management",
+            "percentage": 21
+          },
+          {
+            "category": "Messaging",
+            "percentage": 11
+          }
+        ]
+      },
+      {
+        "id": 33,
+        "name": "Salesforce Certified Nonprofit Cloud Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 67,
+        "weightage": [
+          {
+            "category": "Domain Expertise",
+            "percentage": 20
+          },
+          {
+            "category": "Nonprofit Cloud Product Configuration",
+            "percentage": 22
+          },
+          {
+            "category": "Implementation Strategies and Best Practices",
+            "percentage": 18
+          },
+          {
+            "category": "Solution Design",
+            "percentage": 20
+          },
+          {
+            "category": "Integration and Data Management",
+            "percentage": 15
+          },
+          {
+            "category": "Analytics",
+            "percentage": 5
+          }
+        ]
+      },
+      {
+        "id": 34,
+        "name": "Salesforce Certified OmniStudio Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 63,
+        "weightage": [
+          {
+            "category": "FlexCards",
+            "percentage": 23
+          },
+          {
+            "category": "OmniScripts",
+            "percentage": 27
+          },
+          {
+            "category": "Data Tools",
+            "percentage": 23
+          },
+          {
+            "category": "Best Fit Solutioning",
+            "percentage": 27
+          }
+        ]
+      },
+      {
+        "id": 35,
+        "name": "Salesforce Certified Sales Cloud Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 68,
+        "weightage": [
+          {
+            "category": "Sales Practices",
+            "percentage": 11
+          },
+          {
+            "category": "Implementation Strategies",
+            "percentage": 13
+          },
+          {
+            "category": "Application of Product Knowledge",
+            "percentage": 18
+          },
+          {
+            "category": "Lead Management",
+            "percentage": 7
+          },
+          {
+            "category": "Account and Contact Management",
+            "percentage": 11
+          },
+          {
+            "category": "Opportunity Management",
+            "percentage": 10
+          },
+          {
+            "category": "Sales Productivity and Integration",
+            "percentage": 8
+          },
+          {
+            "category": "Consulting Practices",
+            "percentage": 7
+          },
+          {
+            "category": "Sales Metrics, Reports & Dashboards",
+            "percentage": 7
+          },
+          {
+            "category": "Data Management",
+            "percentage": 8
+          }
+        ]
+      },
+      {
+        "id": 36,
+        "name": "Salesforce Certified Service Cloud Consultant",
+        "nuberofQuestions": 60,
+        "passingScore": 67,
+        "weightage": [
+          {
+            "category": "Industry Knowledge",
+            "percentage": 10
+          },
+          {
+            "category": "Implementation Strategies",
+            "percentage": 15
+          },
+          {
+            "category": "Service Cloud Solution Design",
+            "percentage": 16
+          },
+          {
+            "category": "Knowledge Management",
+            "percentage": 9
+          },
+          {
+            "category": "Interaction Channels",
+            "percentage": 10
+          },
+          {
+            "category": "Case Management",
+            "percentage": 15
+          },
+          {
+            "category": "Contact Center Analytics",
+            "percentage": 5
+          },
+          {
+            "category": "Integration and Data Management",
+            "percentage": 5
+          },
+          {
+            "category": "Service Console",
+            "percentage": 15
+          }
+        ]
+      },
+      {
+        "id": 37,
+        "name": "Salesforce Certified User Experience (UX) Designer",
+        "nuberofQuestions": 60,
+        "passingScore": 65,
+        "weightage": [
+          {
+            "category": "Industry Knowledge",
+            "percentage": 10
+          },
+          {
+            "category": "Implementation Strategies",
+            "percentage": 15
+          },
+          {
+            "category": "Service Cloud Solution Design",
+            "percentage": 16
+          },
+          {
+            "category": "Knowledge Management",
+            "percentage": 9
+          },
+          {
+            "category": "Interaction Channels",
+            "percentage": 10
+          },
+          {
+            "category": "Case Management",
+            "percentage": 15
+          },
+          {
+            "category": "Contact Center Analytics",
+            "percentage": 5
+          },
+          {
+            "category": "Integration and Data Management",
+            "percentage": 5
+          },
+          {
+            "category": "Service Console",
+            "percentage": 15
+          }
+        ]
+      },
+      {
+        "id": 38,
+        "name": "Salesforce Certified Strategy Designer",
+        "nuberofQuestions": 60,
+        "passingScore": 70,
+        "weightage": [
+          {
+            "category": "Value Design",
+            "percentage": 32
+          },
+          {
+            "category": "Tools and Artifacts",
+            "percentage": 23
+          },
+          {
+            "category": "Intangible Deliverables",
+            "percentage": 26
+          },
+          {
+            "category": "Leveraging Adjacent Roles/Skills",
+            "percentage": 19
+          }
+        ]
+      },
+      {
+        "id": 39,
+        "name": "Salesforce Certified Sales Representative",
+        "nuberofQuestions": 60,
+        "passingScore": 70,
+        "weightage": [
+          {
+            "category": "Planning",
+            "percentage": 21
+          },
+          {
+            "category": "Customer Engagement",
+            "percentage": 15
+          },
+          {
+            "category": "Deal Management",
+            "percentage": 37
+          },
+          {
+            "category": "Pipeline Management",
+            "percentage": 12
+          },
+          {
+            "category": "Forecasting",
+            "percentage": 6
+          },
+          {
+            "category": "Customer Success",
+            "percentage": 9
+          }
         ]
       }
     ]

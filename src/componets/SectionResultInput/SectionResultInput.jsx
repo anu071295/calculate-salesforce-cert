@@ -5,14 +5,17 @@ import FinalResults from '../FinalResults/FinalResults';
 
 export default function SectionResultInput({certDetailsofSelected}){
     const [inputValues, setInputValues] = useState({});
-    const [secResults, setSecResults] = useState([{}]);
+    const [secResults, setSecResults] = useState([]);
     const [finalResults, setFinalResults] = useState({});
-
     useEffect(() => {
         // Reset values when certDetailsofSelected prop changes
-        setInputValues({});
-        setSecResults([{}]);
-        setFinalResults({});
+        if(secResults.length>0 && finalResults !== undefined){
+            setInputValues({});
+            setSecResults([]);
+            setFinalResults({});
+        }
+        
+      // eslint-disable-next-line react-hooks/exhaustive-deps
       }, [certDetailsofSelected]);
 
   const handleFieldInputChange = event => {
@@ -23,6 +26,8 @@ export default function SectionResultInput({certDetailsofSelected}){
     }));
   };
   const handleOnSubmit = event => {
+    if(secResults.length>0)
+        setSecResults([]);
     event.preventDefault();
     var totalResults = 0;
     var finalPercentage = 0;
@@ -82,10 +87,10 @@ export default function SectionResultInput({certDetailsofSelected}){
                     </table>
                     <button className='submitButton' type="submit">Submit</button>
                 </form>
-                <FinalResults 
+                {secResults.length > 0 && finalResults != undefined? <FinalResults 
                 secResults={secResults} 
                 finalResults={finalResults}
-                />
+                /> : ''}
             </>
             :<>
             </>}
