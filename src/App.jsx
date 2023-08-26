@@ -26,7 +26,7 @@ export default function App() {
       }
     }
   }
-  
+  //Link to salesforce doc https://trailhead.salesforce.com/help?article=Guide-to-Certification-Exams-at-Dreamforce-2023&search=%20Identity%20&%20Access%20Management%20Designer%20certification
   return (
     <div className='appContainer'>
       <h1>Salesforce Certificate Results Calculator</h1>
