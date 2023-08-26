@@ -1098,40 +1098,28 @@
         "passingScore": 65,
         "weightage": [
           {
-            "category": "Industry Knowledge",
-            "percentage": 10
+            "category": "Discovery",
+            "percentage": 13
           },
           {
-            "category": "Implementation Strategies",
-            "percentage": 15
-          },
-          {
-            "category": "Service Cloud Solution Design",
+            "category": "UX Fundamentals",
             "percentage": 16
           },
           {
-            "category": "Knowledge Management",
-            "percentage": 9
+            "category": "Human-Centered Design",
+            "percentage": 12
           },
           {
-            "category": "Interaction Channels",
-            "percentage": 10
+            "category": "Declarative Design",
+            "percentage": 27
           },
           {
-            "category": "Case Management",
-            "percentage": 15
+            "category": "Testing",
+            "percentage": 11
           },
           {
-            "category": "Contact Center Analytics",
-            "percentage": 5
-          },
-          {
-            "category": "Integration and Data Management",
-            "percentage": 5
-          },
-          {
-            "category": "Service Console",
-            "percentage": 15
+            "category": "Salesforce Lightning Design System (SLDS)",
+            "percentage": 21
           }
         ]
       },
