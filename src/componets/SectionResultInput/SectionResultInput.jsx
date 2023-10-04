@@ -66,7 +66,7 @@ export default function SectionResultInput({certDetailsofSelected}){
                         <tr>
                             <th>Category</th>
                             <th>Weightage</th>
-                            <th>YourScore</th>
+                            <th>Your Score</th>
                         </tr>
                         </thead>
                         {certDetailsofSelected.weightage.map(weightage =>(
