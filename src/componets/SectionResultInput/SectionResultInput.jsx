@@ -50,6 +50,7 @@ export default function SectionResultInput({certDetailsofSelected}){
         totalRightAnswers : totalResults,
         overAllPercentage : finalPercentage,
         totalQuestion : certDetailsofSelected.nuberofQuestions,
+        passingScore : certDetailsofSelected.passingScore,
     })
   }
     return (
@@ -105,6 +106,7 @@ SectionResultInput.propTypes = {
         id: propTypes.number,
         name: propTypes.string,
         nuberofQuestions: propTypes.number,
+        passingScore: propTypes.number,
         weightage : propTypes.arrayOf(
             propTypes.shape({
                 category: propTypes.string,

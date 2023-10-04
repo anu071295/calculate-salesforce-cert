@@ -30,6 +30,11 @@ export default function FinalResults({ secResults, finalResults }) {
             ))}
             </table>
           <p>Your Percentage {overallResults.overAllPercentage}%</p>
+            {overallResults.passingScore > overallResults.overAllPercentage? 
+            (<p>FAIL</p>
+            ):(
+            <p>PASS</p>
+            )}
           <br />
           <p>Total Number of right Answers {overallResults.totalRightAnswers}/{overallResults.totalQuestion}</p>
         </div>
